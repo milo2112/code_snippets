@@ -4,9 +4,10 @@
 #include <unistd.h>
 
 int main(int argc, char *argv[]){
-
+    printf(" \nbefore fork flag\n");
     int id = fork();
     printf(" \nDisplaying from fork id: %d\n\n\n\n", id);
-    printf("   Displaying flag");
+    // printf(" \nDisplaying flag\n");
     return 0;
+    
 }
